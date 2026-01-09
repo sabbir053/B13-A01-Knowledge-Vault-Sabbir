@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Navbar Style */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 120px;
+    padding: 20px 0px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+.btn-primary {
+    padding: 12.5px 16px;
+    border: 1px solid #30B868;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #30B868;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    border: 2px solid #30B868;
+    color: #30B868;
+    transition: .5s;
+}
+
+/* Hero Section */
+main {
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 674px;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.hero-section{
+    margin: 60px 120px 100px 120px;
+}
+
+main section .notes {
+    padding: 8px 12px;
+    border: none;
+    color: #30B868;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+main section h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+main section p {
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+main section .hero-button {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 25px;
+}
+main section .see{
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+}
+
+/* main section .start {
+    padding: 12.5px 16px;
+    border: 1px solid green;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: green;
+}
+
+main section .start:hover {
+    background-color: #fff;
+    border: 2px solid green;
+    color: green;
+    transition: .5s;
+} */
