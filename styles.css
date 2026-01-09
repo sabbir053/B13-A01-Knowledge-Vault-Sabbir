@@ -25,6 +25,7 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -34,6 +35,7 @@ header nav ul li {
     border-radius: 4px;
     font-weight: 600;
     background-color: #30B868;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -41,6 +43,7 @@ header nav ul li {
     color: #ffffff;
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 
 .btn-primary-2 {
@@ -53,6 +56,7 @@ header nav ul li {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .btn-primary-2:hover {
@@ -60,6 +64,7 @@ header nav ul li {
     color: #ffffff;
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 
 /* Hero Section */
@@ -259,12 +264,14 @@ main .hero-section .see {
     background-color: #30B868;
     display: flex;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .btn-access:hover {
     background-color: #ffae00;
     border: non;
     transition: .5s;
+    cursor: pointer;
 }
 /* Footer section */
 footer{
@@ -279,15 +286,17 @@ footer{
 .footer-section img{
     height: 60px;
     width: 140px;
+    cursor: pointer;
 }
 .social-link{
     color: #fff;
     margin-bottom: 10px;
     font-size: 30px;
 }
-.footer-section .social-midea-icon{
-    color: gold;
+.footer-section .social-midea-icon i{
+    color: #fff;
     font-size: 30px;
+    cursor: pointer;
 }
 footer hr{
     border: none;
