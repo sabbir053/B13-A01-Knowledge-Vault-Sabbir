@@ -14,7 +14,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 16px 120px;
+    margin: 16px 180px;
     padding: 20px 0px;
 }
 
@@ -274,7 +274,7 @@ footer{
 .footer-section{
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    padding: 80px 200px;
 }
 .footer-section img{
     height: 60px;
@@ -283,16 +283,26 @@ footer{
 .social-link{
     color: #fff;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .footer-section .social-midea-icon{
-    color: #fff;
+    color: gold;
+    font-size: 30px;
 }
 footer hr{
     border: none;
     height: 2px;
     background-color: white;
-    margin: 20px 0;  
+    margin: 0 80px 20px 80px;
+
 }
-footer .last-footer{
+.last-footer{
+    padding-bottom: 20px;
+}
+footer .copywrite{
     color: #fff;
+    margin-bottom: 20px;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: center;
 }
