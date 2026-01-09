@@ -98,8 +98,11 @@ main .hero-section .see {
     color: #fff;
 }
 
+/* Second Block */
+
 .notes {
     background-color: #fdf8f8;
+    padding: 0 80px;
 }
 
 .notes .some-notes h1 {
@@ -128,7 +131,8 @@ main .hero-section .see {
     width: 322px;
     background-color: #fff;
 }
-.notes .some-notes .cart-notes .cart{
+
+.notes .some-notes .cart-notes .cart {
     padding: 20px;
 }
 
@@ -143,11 +147,59 @@ main .hero-section .see {
     margin: 0 auto 15px;
 }
 
-.img-box img{
+.img-box img {
     height: 32px;
     width: 32px;
 }
-.notes .some-notes .cart-notes .cart h3{
+
+.notes .some-notes .cart-notes .cart h3 {
     letter-spacing: 1px;
     margin-bottom: 20px;
+}
+
+/* Third Block */
+.solution {
+    padding: 80px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.solution-section {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.solution .solution-text .small-heading {
+    font-size: small;
+    letter-spacing: 1px;
+    color: #30B868;
+    margin-bottom: 8px;
+}
+
+.solution .solution-text h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #30B868;
+    margin-bottom: 20px;
+}
+
+.solution .solution-text .description {
+    font-size: small;
+    letter-spacing: 1px;
+    color: #627382;
+    margin-bottom: 20px;
+}
+
+.solution .solution-text ul {
+    list-style: none;
+    line-height: 38px;
+}
+.solution .solution-text ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
