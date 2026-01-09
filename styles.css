@@ -44,23 +44,22 @@ header nav ul li {
 }
 
 /* Hero Section */
-main {
+.hero {
     background: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 674px;
-
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
-.hero-section{
+/* .hero-section {
     margin: 60px 120px 100px 120px;
-}
+} */
 
-main section .notes {
+main .hero-section .notes {
     padding: 8px 12px;
     border: none;
     color: #30B868;
@@ -71,12 +70,12 @@ main section .notes {
     margin-bottom: 16px;
 }
 
-main section h1 {
+main .hero-section h1 {
     text-align: center;
     font-size: 60px;
 }
 
-main section p {
+main .hero-section p {
     text-align: center;
     color: #fff;
     margin: 20px;
@@ -84,13 +83,14 @@ main section p {
     letter-spacing: 1px;
 }
 
-main section .hero-button {
+main .hero-section .hero-button {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     gap: 25px;
 }
-main section .see{
+
+main .hero-section .see {
     padding: 15px;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -98,18 +98,56 @@ main section .see{
     color: #fff;
 }
 
-/* main section .start {
-    padding: 12.5px 16px;
-    border: 1px solid green;
-    color: white;
-    border-radius: 4px;
-    font-weight: 600;
-    background-color: green;
+.notes {
+    background-color: #fdf8f8;
 }
 
-main section .start:hover {
+.notes .some-notes h1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -20px;
+}
+
+.notes .some-notes p {
+    text-align: center;
+    font-size: small;
+    letter-spacing: 1px;
+    color: #627382;
+    margin-bottom: 30px;
+}
+
+.notes .some-notes .cart-notes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+.notes .some-notes .cart-notes div {
+    text-align: center;
+    height: 300px;
+    width: 322px;
     background-color: #fff;
-    border: 2px solid green;
-    color: green;
-    transition: .5s;
-} */
+}
+.notes .some-notes .cart-notes .cart{
+    padding: 20px;
+}
+
+.notes .some-notes .cart-notes .cart .img-box {
+    background-color: #f95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.img-box img{
+    height: 32px;
+    width: 32px;
+}
+.notes .some-notes .cart-notes .cart h3{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
